@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    max-width: 800px;
+    margin:0 auto;
+    border: 1px solid black;
+    background:white ;
+}
+
+header{
+    width: 100%;
+    background-color: #D9563F;
+    align-items: center;
+    border-bottom:2px solid #D9563F;
+}
+
+header .container-header{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+header .container-header ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 50px;
+}
+
+header .container-header ul li{
+    padding-top: 15px;
+    text-decoration: none;
+    color:white;
+}
+
+main{
+    display: flex;
+    padding:10px;
+    justify-content: space-around;
+    margin:0 auto;
+    align-items: center;
+} 
+
+#login{
+    width: 200px;
+    text-align: center;
+    padding:10px;
+}
+
+#login .login-inputs{
+    padding-left:5px;
+    border-color:#D9563F;
+    height: 30px;
+}
+
+#Login{
+    margin-bottom:15px;
+}
+
+#Senha{
+    margin-bottom:15px;
+}
+
+#botao{
+    background-color:white;
+    color:#D9563F;
+    border-color:#D9563F;
+    padding:5px;
+}
+
+#botao:hover{
+    background-color: #f7e5e5;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px){
+
+}
