@@ -70,11 +70,10 @@ main{
     color:#D9563F;
     border-color:#D9563F;
     padding:5px;
+    background-color: white;
 }
 
-#botao{
-    background-color: #f7e5e5;
-}
+
 
 /* Mobile */
 @media screen and (max-width: 480px){
